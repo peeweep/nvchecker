@@ -1,0 +1,60 @@
+[submodule "analyzemft"]
+	path = analyzemft
+	url = ssh://aur@aur.archlinux.org/analyzemft.git
+[submodule "analyzemft-git"]
+	path = analyzemft-git
+	url = ssh://aur@aur.archlinux.org/analyzemft-git.git
+[submodule "ao"]
+	path = ao
+	url = ssh://aur@aur.archlinux.org/ao.git
+[submodule "beef-git"]
+	path = beef-git
+	url = ssh://aur@aur.archlinux.org/beef-git.git
+[submodule "clash-dashboard"]
+	path = clash-dashboard
+	url = ssh://aur@aur.archlinux.org/clash-dashboard.git
+[submodule "course-crawler-git"]
+	path = course-crawler-git
+	url = ssh://aur@aur.archlinux.org/course-crawler-git.git
+[submodule "fortressone-bin"]
+	path = fortressone-bin
+	url = ssh://aur@aur.archlinux.org/fortressone-bin.git
+[submodule "muduo"]
+	path = muduo
+	url = ssh://aur@aur.archlinux.org/muduo.git
+[submodule "python-aigpy"]
+	path = python-aigpy
+	url = ssh://aur@aur.archlinux.org/python-aigpy.git
+[submodule "python-aigpy-git"]
+	path = python-aigpy-git
+	url = ssh://aur@aur.archlinux.org/python-aigpy-git.git
+[submodule "python-libconfigparser"]
+	path = python-libconfigparser
+	url = ssh://aur@aur.archlinux.org/python-libconfigparser.git
+[submodule "python-libffmpeg"]
+	path = python-libffmpeg
+	url = ssh://aur@aur.archlinux.org/python-libffmpeg.git
+[submodule "python-minieigen-git"]
+	path = python-minieigen-git
+	url = ssh://aur@aur.archlinux.org/python-minieigen-git.git
+[submodule "python-termcolors"]
+	path = python-termcolors
+	url = ssh://aur@aur.archlinux.org/python-termcolors.git
+[submodule "python-torrequest"]
+	path = python-torrequest
+	url = ssh://aur@aur.archlinux.org/python-torrequest.git
+[submodule "sddm-sugar-dark"]
+	path = sddm-sugar-dark
+	url = ssh://aur@aur.archlinux.org/sddm-sugar-dark.git
+[submodule "sddm-sugar-light"]
+	path = sddm-sugar-light
+	url = ssh://aur@aur.archlinux.org/sddm-sugar-light.git
+[submodule "sherlock-git"]
+	path = sherlock-git
+	url = ssh://aur@aur.archlinux.org/sherlock-git.git
+[submodule "sigma"]
+	path = sigma
+	url = ssh://aur@aur.archlinux.org/sigma.git
+[submodule "tidal-dl"]
+	path = tidal-dl
+	url = ssh://aur@aur.archlinux.org/tidal-dl.git
