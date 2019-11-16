@@ -58,3 +58,6 @@
 [submodule "tidal-dl"]
 	path = tidal-dl
 	url = ssh://aur@aur.archlinux.org/tidal-dl.git
+[submodule "clash-dashboard-git"]
+	path = clash-dashboard-git
+	url = ssh://aur@aur.archlinux.org/clash-dashboard-git.git
