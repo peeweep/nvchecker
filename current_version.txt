@@ -1,7 +1,7 @@
 analyzemft 2.0.19
 analyzemft-git 20180319.002807
 ao 6.9.0
-beef-git 20190926.062015
+beef-git 20191203.063527
 clash-dashboard 0.3.0
 clash-dashboard-git 20191202.123630
 course-crawler-git 20181219.025429
