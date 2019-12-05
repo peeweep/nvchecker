@@ -18,4 +18,4 @@ sddm-sugar-dark 1.2
 sddm-sugar-light 1.0
 sherlock-git 20191201.092001
 sigma 0.14
-tidal-dl 1.1.0.9
+tidal-dl 1.1.0.10
