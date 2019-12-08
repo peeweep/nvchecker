@@ -61,3 +61,6 @@
 [submodule "clash-dashboard-git"]
 	path = clash-dashboard-git
 	url = ssh://aur@aur.archlinux.org/clash-dashboard-git.git
+[submodule "pycharm-edu"]
+	path = pycharm-edu
+	url = ssh://aur@aur.archlinux.org/pycharm-edu.git
