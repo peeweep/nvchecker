@@ -12,11 +12,13 @@ for file in /etc/nvchecker/*.cfg; do
       old_version=$(echo "${line}" | jq -r ".old_version")
       new_version=$(echo "${line}" | jq -r ".version")
       i=$((i + 1))
-      echo "Package ${i}: ${package_name} need update, from ${old_version} to ${new_version}."
+      echo "${i}: ${package_name} need update to ${new_version}."
     fi; done
   )
   logger -t nvchecker "${OUTPUT}"
   ## Send mail required mutt or other mailer.
-  # echo "${OUTPUT}"  | mutt -s "nvchecker notification" user@example.com -F /home/archlinux/.muttrc
+  # if [[ "${OUTPUT}" != "" ]]; then
+  #   echo "${OUTPUT}" | mutt -s "nvchecker notification" user@example.com -F /home/archlinux/.muttrc
+  # fi
 done
 exit $EXITCODE
