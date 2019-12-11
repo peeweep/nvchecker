@@ -1,0 +1,22 @@
+#!/bin/sh
+
+logger -t nvcheer "Update nvchecker service"
+EXITCODE=0
+for file in /etc/nvchecker/*.cfg; do
+  source "${file}"
+  logger -t nvchecker "Executing config file '${file}'"
+  OUTPUT=$(
+    i=0
+    nvchecker "${nvchecker_folder}/nvchecker.ini" --logger json | while read -r line; do if [[ "${line}" == *update* ]]; then
+      package_name=$(echo "${line}" | jq -r ".name")
+      old_version=$(echo "${line}" | jq -r ".old_version")
+      new_version=$(echo "${line}" | jq -r ".version")
+      i=$((i + 1))
+      echo "Package ${i}: ${package_name} need update, from ${old_version} to ${new_version}."
+    fi; done
+  )
+  logger -t nvchecker "${OUTPUT}"
+  ## Send mail required mutt or other mailer.
+  # echo "${OUTPUT}"  | mutt -s "nvchecker notification" user@example.com -F /home/archlinux/.muttrc
+done
+exit $EXITCODE

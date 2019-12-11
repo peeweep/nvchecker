@@ -1,0 +1,9 @@
+[Unit]
+Description=Run nvchecker every 8 hours
+
+[Timer]
+OnUnitActiveSec=8h
+Unit=nvchecker.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,8 @@
+Run:
+  sudo install -Dm755 nvcheckerTimer /usr/bin/nvcheckerTimer
+  sudo install -Dm644 nvchecker.service /usr/lib/systemd/system/nvchecker.service
+  sudo install -Dm644 nvchecker.timer /usr/lib/systemd/system/nvchecker.timer
+  sudo install -Dm644 nvchecker.cfg /etc/nvchecker/nvchecker.cfg
+
+Then set the nvchecker folder at /etc/nvchecker/nvchecker.cfg,
+  If you want to use smtp, alse set path at /usr/bin/nvcheckerTimer

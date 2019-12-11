@@ -1,0 +1,9 @@
+[Unit]
+Description=nvchecker update job
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/nvcheckerTimer
