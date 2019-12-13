@@ -3,7 +3,7 @@ analyzemft-git 20180319.002807
 ao 6.9.0
 beef-git 20191210.034427
 clash-dashboard 0.3.0
-clash-dashboard-git 20191205.142246
+clash-dashboard-git 20191213.021717
 course-crawler-git 20181219.025429
 fortressone-bin 3.1
 getolite2-city 24d0b4231534251a7677f604b1cdcc3bf039afd5b632380dc15e7ad8418c8865
