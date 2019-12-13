@@ -16,8 +16,17 @@ for file in /etc/nvchecker/*.cfg; do
     fi; done
   )
   logger -t nvchecker "${OUTPUT}"
-  ## Send mail required mutt or other mailer.
   # if [[ "${OUTPUT}" != "" ]]; then
+  #
+  ## Send mail use Mailgun API
+  #   curl -s --user 'api:YOUR_API_KEY' \
+  #     https://api.mailgun.net/v3/example.com/messages \
+  #     -F from='nvchecker <nvchecker@example.com>' \
+  #     -F to=user@example.com \
+  #     -F subject="nvchecker notification for ${file}" \
+  #     -F text="${OUTPUT}"
+  #
+  ## or mutt
   #   echo "${OUTPUT}" | mutt -s "nvchecker notification" user@example.com -F /home/archlinux/.muttrc
   # fi
 done
