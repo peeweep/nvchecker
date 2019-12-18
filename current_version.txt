@@ -5,7 +5,7 @@ clash-dashboard 0.3.0
 clash-dashboard-git 20191213.021717
 course-crawler-git 20181219.025429
 fortressone-bin 3.1
-getolite2-city cca0d3045c6608a0b32a485a479d32def16228e4b384d8ecfff34372ae1d5be4
+geolite2-city cca0d3045c6608a0b32a485a479d32def16228e4b384d8ecfff34372ae1d5be4
 muduo 2.0.1
 pycharm-edu 2019.3
 python-aigpy 2019.9.20.2
