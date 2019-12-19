@@ -17,6 +17,6 @@ python-termcolors 0.1.0
 python-torrequest 0.1.0
 sddm-sugar-dark 1.2
 sddm-sugar-light 1.0
-sherlock-git 20191213.130246
+sherlock-git 20191218.203855
 sigma 0.15.0
 tidal-dl 1.1.0.10
