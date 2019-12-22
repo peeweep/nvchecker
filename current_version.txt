@@ -19,4 +19,5 @@ sddm-sugar-dark 1.2
 sddm-sugar-light 1.0
 sherlock-git 0.9.16
 sigma 0.15.0
+supersm 0.1
 tidal-dl 1.1.0.10
