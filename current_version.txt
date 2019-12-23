@@ -2,7 +2,7 @@ analyzemft 2.0.19
 analyzemft-git 20180319.002807
 ao 6.9.0
 clash-dashboard 0.3.0
-clash-dashboard-git 20191213.021717
+clash-dashboard-git 20191223.104115
 course-crawler-git 20181219.025429
 fortressone-bin 3.1
 geolite2-city cca0d3045c6608a0b32a485a479d32def16228e4b384d8ecfff34372ae1d5be4
