@@ -2,7 +2,7 @@ analyzemft 2.0.19
 analyzemft-git 20180319.002807
 ao 6.9.0
 clash-dashboard 0.3.0
-clash-dashboard-git 20191227.080820
+clash-dashboard-git 20191229.133142
 course-crawler-git 20181219.025429
 fortressone-bin 3.1
 geolite2-city d1c309c4cf676884fe2314522de0819767ce44f6c776d60e2657e9eeaf93640c
@@ -17,7 +17,7 @@ python-termcolors 0.1.0
 python-torrequest 0.1.0
 sddm-sugar-dark 1.2
 sddm-sugar-light 1.0
-sherlock-git 0.10.0
+sherlock-git 0.10.1
 sigma 0.15.0
 supersm 0.2
 tidal-dl 1.1.0.10
