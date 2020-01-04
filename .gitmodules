@@ -67,3 +67,6 @@
 [submodule "pkgbuilds/supersm"]
 	path = pkgbuilds/supersm
 	url = ssh://aur@aur.archlinux.org/supersm.git
+[submodule "pkgbuilds/nvidia-dkms-fix-drm-drmph-not-found"]
+	path = pkgbuilds/nvidia-dkms-fix-drm-drmph-not-found
+	url = https://github.com/peeweep/nvidia-dkms-fix-drm-drmph-not-found
