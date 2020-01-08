@@ -3,7 +3,7 @@ analyzemft-git 20180319.002807
 ao 6.9.0
 beef-git 0.5.0.0
 clash-dashboard 0.3.0
-clash-dashboard-git 20191229.133142
+clash-dashboard-git 0.3.0
 course-crawler-git 20181219.025429
 fortressone-bin 3.1
 muduo 2.0.1
