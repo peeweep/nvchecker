@@ -76,3 +76,6 @@
 [submodule "pkgbuilds/python-androguard-git"]
 	path = pkgbuilds/python-androguard-git
 	url = ssh://aur@aur.archlinux.org/python-androguard-git.git
+[submodule "pkgbuilds/quark-engine"]
+	path = pkgbuilds/quark-engine
+	url = ssh://aur@aur.archlinux.org/quark-engine.git
