@@ -11,6 +11,7 @@ nvidia-dkms-fix-drm-drmph-not-found 440.44-9
 pycharm-edu 2019.3
 python-aigpy 2019.9.20.2
 python-aigpy-git 20190925.012427
+python-androguard-git 3.3.5
 python-libconfigparser 4.0.2
 python-libffmpeg 1.4
 python-minieigen-git 20190218.135316
