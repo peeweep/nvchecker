@@ -1,6 +1,7 @@
 analyzemft 2.0.19
 analyzemft-git 20180319.002807
 ao 6.9.0
+apindex 2.2
 beef-git 0.5.0.0
 clash-dashboard 0.3.0
 clash-dashboard-git 0.3.0

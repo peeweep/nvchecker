@@ -79,3 +79,6 @@
 [submodule "pkgbuilds/quark-engine"]
 	path = pkgbuilds/quark-engine
 	url = ssh://aur@aur.archlinux.org/quark-engine.git
+[submodule "pkgbuilds/apindex"]
+	path = pkgbuilds/apindex
+	url = ssh://aur@aur.archlinux.org/apindex.git
