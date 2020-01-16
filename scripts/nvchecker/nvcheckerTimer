@@ -15,7 +15,7 @@ for file in /etc/nvchecker/*.cfg; do
     fi; done
   )
   logger -t nvchecker "${OUTPUT}"
-  # if [[ "${OUTPUT}" != "" ]]; then
+  if [[ "${OUTPUT}" != "" ]]; then
   #   repo=$(basename ${file}| sed 's/\.[^.]*$//')
   #
   ## Send mail use Mailgun API
@@ -30,7 +30,7 @@ for file in /etc/nvchecker/*.cfg; do
   #   echo "${OUTPUT}" | mutt -s "nvchecker notification for repository: ${repo}" user@example.com -F /home/archlinux/.muttrc
   #
   ## update version file
-  #   cat "${nvchecker_folder}/latest_version.txt" > "${nvchecker_folder}/current_version.txt"
-  # fi
+    cat "${nvchecker_folder}/latest_version.txt" > "${nvchecker_folder}/current_version.txt"
+  fi
 done
 exit $EXITCODE
