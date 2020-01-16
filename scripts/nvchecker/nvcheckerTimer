@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 logger -t nvcheer "Update nvchecker service"
 EXITCODE=0
@@ -9,25 +9,28 @@ for file in /etc/nvchecker/*.cfg; do
     i=0
     nvchecker "${nvchecker_folder}/nvchecker.ini" --logger json | while read -r line; do if [[ "${line}" == *update* ]]; then
       package_name=$(echo "${line}" | jq -r ".name")
-      old_version=$(echo "${line}" | jq -r ".old_version")
-      new_version=$(echo "${line}" | jq -r ".version")
+      version_to=$(echo "${line}" | jq -r ".version")
       i=$((i + 1))
-      echo "${i}: ${package_name} need update to ${new_version}."
+      echo "${i}: ${package_name} need update to ${version_to}."
     fi; done
   )
   logger -t nvchecker "${OUTPUT}"
   # if [[ "${OUTPUT}" != "" ]]; then
+  #   repo=$(basename ${file}| sed 's/\.[^.]*$//')
   #
   ## Send mail use Mailgun API
   #   curl -s --user 'api:YOUR_API_KEY' \
   #     https://api.mailgun.net/v3/example.com/messages \
   #     -F from='nvchecker <nvchecker@example.com>' \
   #     -F to=user@example.com \
-  #     -F subject="nvchecker notification for ${file}" \
+  #     -F subject="nvchecker notification for reposotory: ${repo}" \
   #     -F text="${OUTPUT}"
   #
   ## or mutt
-  #   echo "${OUTPUT}" | mutt -s "nvchecker notification" user@example.com -F /home/archlinux/.muttrc
+  #   echo "${OUTPUT}" | mutt -s "nvchecker notification for repository: ${repo}" user@example.com -F /home/archlinux/.muttrc
+  #
+  ## update version file
+  #   cat "${nvchecker_folder}/latest_version.txt" > "${nvchecker_folder}/current_version.txt"
   # fi
 done
 exit $EXITCODE
