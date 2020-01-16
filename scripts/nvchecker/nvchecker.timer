@@ -1,8 +1,8 @@
 [Unit]
-Description=Run nvchecker every 8 hours
+Description=Run nvchecker every 5 minutes
 
 [Timer]
-OnUnitActiveSec=8h
+OnUnitActiveSec=5m
 Unit=nvchecker.service
 
 [Install]
