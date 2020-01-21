@@ -35,15 +35,12 @@ int main(int argc, char const *argv[]) {
   //  std::string            url = argv[1];
   pugi::xml_document     doc;
   pugi::xml_parse_result result = doc.load_string(getString(url).c_str());
-  if (result.status != pugi::status_ok) {
-    std::cout << "load file failed";
-    return 0;
-  }
-  std::cout << (doc.child("products")
-                    .find_child_by_attribute("name", argv[1])
-                    //      .find_child_by_attribute("name", "PyCharm Edu")
-                    .child("channel")
-                    .first_child()
-                    .attribute("version")
-                    .value());
+  if (result.status == pugi::status_ok)
+    std::cout << (doc.child("products")
+                      .find_child_by_attribute("name", argv[1])
+                      //      .find_child_by_attribute("name", "PyCharm Edu")
+                      .child("channel")
+                      .first_child()
+                      .attribute("version")
+                      .value());
 }
