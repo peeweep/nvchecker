@@ -82,3 +82,9 @@
 [submodule "pkgbuilds/apindex"]
 	path = pkgbuilds/apindex
 	url = ssh://aur@aur.archlinux.org/apindex.git
+[submodule "pkgbuilds/neovide-git"]
+	path = pkgbuilds/neovide-git
+	url = ssh://aur@aur.archlinux.org/neovide-git.git
+[submodule "pkgbuilds/neovide"]
+	path = pkgbuilds/neovide
+	url = ssh://aur@aur.archlinux.org/neovide.git
