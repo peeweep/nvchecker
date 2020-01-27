@@ -9,7 +9,7 @@ course-crawler-git 20181219.025429
 fortressone-bin 3.1
 muduo 2.0.1
 neovide 0.2.0
-nvidia-dkms-fix-drm-drmph-not-found 440.44-14
+nvidia-dkms-fix-drm-drmph-not-found 440.44-15
 pycharm-edu 2019.3.1
 python-aigpy 2019.9.20.2
 python-aigpy-git 20190925.012427
