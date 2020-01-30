@@ -23,4 +23,4 @@ sddm-sugar-light 1.0
 sherlock-git 0.10.4
 sigma 0.15.0
 supersm 0.3
-tidal-dl 1.1.0.10
+tidal-dl 1.1.0.11
