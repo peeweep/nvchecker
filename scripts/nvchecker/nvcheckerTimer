@@ -23,11 +23,11 @@ for file in /etc/nvchecker/*.cfg; do
   #     https://api.mailgun.net/v3/example.com/messages \
   #     -F from='nvchecker <nvchecker@example.com>' \
   #     -F to=user@example.com \
-  #     -F subject="nvchecker notification for reposotory: ${repo}" \
+  #     -F subject="Alert for <${repo}>" \
   #     -F text="${OUTPUT}"
   #
   ## or mutt
-  #   echo "${OUTPUT}" | mutt -s "nvchecker notification for repository: ${repo}" user@example.com -F /home/archlinux/.muttrc
+  #   echo "${OUTPUT}" | mutt -s "Alert for <${repo}>" user@example.com -F /home/archlinux/.muttrc
   #
   ## update version file
     cat "${nvchecker_folder}/latest_version.txt" > "${nvchecker_folder}/current_version.txt"
