@@ -8,7 +8,7 @@ clash-dashboard-git 0.3.0
 course-crawler-git 20181219.025429
 fortressone-bin 3.1
 muduo 2.0.1
-neovide 0.3.0
+neovide 0.4.0
 nvidia-dkms-fix-drm-drmph-not-found 440.44-15
 pycharm-edu 2019.3.1
 python-aigpy 2019.9.20.2
