@@ -88,3 +88,6 @@
 [submodule "pkgbuilds/neovide"]
 	path = pkgbuilds/neovide
 	url = ssh://aur@aur.archlinux.org/neovide.git
+[submodule "pkgbuilds/ipv666"]
+	path = pkgbuilds/ipv666
+	url = ssh://aur@aur.archlinux.org/ipv666.git
