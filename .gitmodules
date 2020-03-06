@@ -13,12 +13,6 @@
 [submodule "clash-dashboard"]
 	path = pkgbuilds/clash-dashboard
 	url = ssh://aur@aur.archlinux.org/clash-dashboard.git
-[submodule "course-crawler-git"]
-	path = pkgbuilds/course-crawler-git
-	url = ssh://aur@aur.archlinux.org/course-crawler-git.git
-[submodule "fortressone-bin"]
-	path = pkgbuilds/fortressone-bin
-	url = ssh://aur@aur.archlinux.org/fortressone-bin.git
 [submodule "muduo"]
 	path = pkgbuilds/muduo
 	url = ssh://aur@aur.archlinux.org/muduo.git
@@ -37,9 +31,6 @@
 [submodule "python-minieigen-git"]
 	path = pkgbuilds/python-minieigen-git
 	url = ssh://aur@aur.archlinux.org/python-minieigen-git.git
-[submodule "python-termcolors"]
-	path = pkgbuilds/python-termcolors
-	url = ssh://aur@aur.archlinux.org/python-termcolors.git
 [submodule "python-torrequest"]
 	path = pkgbuilds/python-torrequest
 	url = ssh://aur@aur.archlinux.org/python-torrequest.git
@@ -67,9 +58,6 @@
 [submodule "pkgbuilds/supersm"]
 	path = pkgbuilds/supersm
 	url = ssh://aur@aur.archlinux.org/supersm.git
-[submodule "pkgbuilds/nvidia-dkms-fix-drm-drmph-not-found"]
-	path = pkgbuilds/nvidia-dkms-fix-drm-drmph-not-found
-	url = https://github.com/peeweep/nvidia-dkms-fix-drm-drmph-not-found
 [submodule "pkgbuilds/ao-git"]
 	path = pkgbuilds/ao-git
 	url = ssh://aur@aur.archlinux.org/ao-git.git
