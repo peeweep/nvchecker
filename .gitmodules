@@ -22,9 +22,6 @@
 [submodule "python-aigpy-git"]
 	path = pkgbuilds/python-aigpy-git
 	url = ssh://aur@aur.archlinux.org/python-aigpy-git.git
-[submodule "python-libconfigparser"]
-	path = pkgbuilds/python-libconfigparser
-	url = ssh://aur@aur.archlinux.org/python-libconfigparser.git
 [submodule "python-libffmpeg"]
 	path = pkgbuilds/python-libffmpeg
 	url = ssh://aur@aur.archlinux.org/python-libffmpeg.git
