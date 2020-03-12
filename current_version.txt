@@ -6,7 +6,6 @@ clash-dashboard-git 0.3.0
 ipv666 0.4.0
 muduo 2.0.1
 neovide 0.5.0
-pycharm-edu 2019.3.3
 python-aigpy 2020.2.28.0
 python-androguard-git 3.3.5
 python-libffmpeg 1.4
@@ -17,4 +16,4 @@ sddm-sugar-light 1.0
 sherlock-git 0.10.8
 sigma 0.16.0
 supersm 0.5
-tidal-dl 1.1.0.13
+tidal-dl 1.1.0.14

@@ -49,9 +49,6 @@
 [submodule "clash-dashboard-git"]
 	path = pkgbuilds/clash-dashboard-git
 	url = ssh://aur@aur.archlinux.org/clash-dashboard-git.git
-[submodule "pycharm-edu"]
-	path = pkgbuilds/pycharm-edu
-	url = ssh://aur@aur.archlinux.org/pycharm-edu.git
 [submodule "pkgbuilds/supersm"]
 	path = pkgbuilds/supersm
 	url = ssh://aur@aur.archlinux.org/supersm.git
