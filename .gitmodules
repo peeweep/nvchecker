@@ -7,9 +7,6 @@
 [submodule "ao"]
 	path = pkgbuilds/ao
 	url = ssh://aur@aur.archlinux.org/ao.git
-[submodule "beef-git"]
-	path = pkgbuilds/beef-git
-	url = ssh://aur@aur.archlinux.org/beef-git.git
 [submodule "clash-dashboard"]
 	path = pkgbuilds/clash-dashboard
 	url = ssh://aur@aur.archlinux.org/clash-dashboard.git
@@ -25,9 +22,6 @@
 [submodule "python-libffmpeg"]
 	path = pkgbuilds/python-libffmpeg
 	url = ssh://aur@aur.archlinux.org/python-libffmpeg.git
-[submodule "python-minieigen-git"]
-	path = pkgbuilds/python-minieigen-git
-	url = ssh://aur@aur.archlinux.org/python-minieigen-git.git
 [submodule "python-torrequest"]
 	path = pkgbuilds/python-torrequest
 	url = ssh://aur@aur.archlinux.org/python-torrequest.git
@@ -37,12 +31,6 @@
 [submodule "sddm-sugar-light"]
 	path = pkgbuilds/sddm-sugar-light
 	url = ssh://aur@aur.archlinux.org/sddm-sugar-light.git
-[submodule "sherlock-git"]
-	path = pkgbuilds/sherlock-git
-	url = ssh://aur@aur.archlinux.org/sherlock-git.git
-[submodule "sigma"]
-	path = pkgbuilds/sigma
-	url = ssh://aur@aur.archlinux.org/sigma.git
 [submodule "tidal-dl"]
 	path = pkgbuilds/tidal-dl
 	url = ssh://aur@aur.archlinux.org/tidal-dl.git
@@ -55,12 +43,6 @@
 [submodule "pkgbuilds/ao-git"]
 	path = pkgbuilds/ao-git
 	url = ssh://aur@aur.archlinux.org/ao-git.git
-[submodule "pkgbuilds/python-androguard-git"]
-	path = pkgbuilds/python-androguard-git
-	url = ssh://aur@aur.archlinux.org/python-androguard-git.git
-[submodule "pkgbuilds/quark-engine"]
-	path = pkgbuilds/quark-engine
-	url = ssh://aur@aur.archlinux.org/quark-engine.git
 [submodule "pkgbuilds/apindex"]
 	path = pkgbuilds/apindex
 	url = ssh://aur@aur.archlinux.org/apindex.git
@@ -70,6 +52,3 @@
 [submodule "pkgbuilds/neovide"]
 	path = pkgbuilds/neovide
 	url = ssh://aur@aur.archlinux.org/neovide.git
-[submodule "pkgbuilds/ipv666"]
-	path = pkgbuilds/ipv666
-	url = ssh://aur@aur.archlinux.org/ipv666.git
