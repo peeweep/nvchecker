@@ -16,15 +16,9 @@
 [submodule "python-aigpy"]
 	path = pkgbuilds/python-aigpy
 	url = ssh://aur@aur.archlinux.org/python-aigpy.git
-[submodule "python-aigpy-git"]
-	path = pkgbuilds/python-aigpy-git
-	url = ssh://aur@aur.archlinux.org/python-aigpy-git.git
 [submodule "python-libffmpeg"]
 	path = pkgbuilds/python-libffmpeg
 	url = ssh://aur@aur.archlinux.org/python-libffmpeg.git
-[submodule "python-torrequest"]
-	path = pkgbuilds/python-torrequest
-	url = ssh://aur@aur.archlinux.org/python-torrequest.git
 [submodule "sddm-sugar-dark"]
 	path = pkgbuilds/sddm-sugar-dark
 	url = ssh://aur@aur.archlinux.org/sddm-sugar-dark.git
