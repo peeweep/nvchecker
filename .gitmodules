@@ -1,9 +1,3 @@
-[submodule "analyzemft"]
-	path = pkgbuilds/analyzemft
-	url = ssh://aur@aur.archlinux.org/analyzemft.git
-[submodule "analyzemft-git"]
-	path = pkgbuilds/analyzemft-git
-	url = ssh://aur@aur.archlinux.org/analyzemft-git.git
 [submodule "ao"]
 	path = pkgbuilds/ao
 	url = ssh://aur@aur.archlinux.org/ao.git
