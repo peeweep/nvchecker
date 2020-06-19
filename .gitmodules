@@ -40,3 +40,6 @@
 [submodule "pkgbuilds/neovide"]
 	path = pkgbuilds/neovide
 	url = ssh://aur@aur.archlinux.org/neovide.git
+[submodule "pkgbuilds/0ad-zh-lang"]
+	path = pkgbuilds/0ad-zh-lang
+	url = ssh://aur@aur.archlinux.org/0ad-zh-lang.git

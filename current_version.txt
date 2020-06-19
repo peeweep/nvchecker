@@ -1,3 +1,4 @@
+0ad-zh-lang 0.0.19
 ao 6.9.0
 apindex 2.2
 clash-dashboard 0.3.0
@@ -7,4 +8,4 @@ python-libffmpeg 1.4
 sddm-sugar-dark 1.2
 sddm-sugar-light 1.0
 supersm 0.5
-tidal-dl 1.1.0.19
+tidal-dl 1.1.0.21
