@@ -1,4 +1,4 @@
-0ad-zh-lang 0.0.19
+0ad-zh-lang 0.0.23b
 ao 6.9.0
 apindex 2.2
 clash-dashboard 0.3.0
