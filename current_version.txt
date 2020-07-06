@@ -3,9 +3,9 @@ ao 6.9.0
 apindex 2.2
 clash-dashboard 0.3.0
 muduo 2.0.2
-python-aigpy 2020.5.4.0
+python-aigpy 2020.7.3.0
 python-libffmpeg 1.4
 sddm-sugar-dark 1.2
 sddm-sugar-light 1.0
 supersm 0.5
-tidal-dl 1.1.0.22
+tidal-dl 1.1.1.0
