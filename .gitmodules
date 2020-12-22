@@ -43,3 +43,6 @@
 [submodule "pkgbuilds/0ad-zh-lang"]
 	path = pkgbuilds/0ad-zh-lang
 	url = ssh://aur@aur.archlinux.org/0ad-zh-lang.git
+[submodule "pkgbuilds/gotags"]
+	path = pkgbuilds/gotags
+	url = ssh://aur@aur.archlinux.org/gotags.git
