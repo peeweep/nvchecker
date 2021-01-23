@@ -18,3 +18,12 @@ git submodule foreach git pull origin master
 ``` shell
 nvchecker nvchekcer.ini
 ```
+
+### Remove submodule
+
+``` shell
+git submodule deinit -f ${repo}
+vim .gitmodules
+git add .gitmodules
+git rm --cached ${repo}
+```
