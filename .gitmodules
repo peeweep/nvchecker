@@ -46,3 +46,6 @@
 [submodule "pkgbuilds/nvchecker-1.7"]
 	path = pkgbuilds/nvchecker-1.7
 	url = ssh://aur@aur.archlinux.org/nvchecker-1.7.git
+[submodule "pkgbuilds/qemu-debootstrap"]
+	path = pkgbuilds/qemu-debootstrap
+	url = ssh://aur@aur.archlinux.org/qemu-debootstrap.git
