@@ -43,3 +43,6 @@
 [submodule "pkgbuilds/chrome-pak-customizer-git"]
 	path = pkgbuilds/chrome-pak-customizer-git
 	url = ssh://aur@aur.archlinux.org/chrome-pak-customizer-git.git
+[submodule "pkgbuilds/nvchecker-1.7"]
+	path = pkgbuilds/nvchecker-1.7
+	url = ssh://aur@aur.archlinux.org/nvchecker-1.7.git
