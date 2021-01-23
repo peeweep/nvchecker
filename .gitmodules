@@ -1,9 +1,6 @@
 [submodule "ao"]
 	path = pkgbuilds/ao
 	url = ssh://aur@aur.archlinux.org/ao.git
-[submodule "clash-dashboard"]
-	path = pkgbuilds/clash-dashboard
-	url = ssh://aur@aur.archlinux.org/clash-dashboard.git
 [submodule "muduo"]
 	path = pkgbuilds/muduo
 	url = ssh://aur@aur.archlinux.org/muduo.git
@@ -22,9 +19,6 @@
 [submodule "tidal-dl"]
 	path = pkgbuilds/tidal-dl
 	url = ssh://aur@aur.archlinux.org/tidal-dl.git
-[submodule "clash-dashboard-git"]
-	path = pkgbuilds/clash-dashboard-git
-	url = ssh://aur@aur.archlinux.org/clash-dashboard-git.git
 [submodule "pkgbuilds/supersm"]
 	path = pkgbuilds/supersm
 	url = ssh://aur@aur.archlinux.org/supersm.git
@@ -46,3 +40,6 @@
 [submodule "pkgbuilds/gotags"]
 	path = pkgbuilds/gotags
 	url = ssh://aur@aur.archlinux.org/gotags.git
+[submodule "pkgbuilds/chrome-pak-customizer-git"]
+	path = pkgbuilds/chrome-pak-customizer-git
+	url = ssh://aur@aur.archlinux.org/chrome-pak-customizer-git.git
