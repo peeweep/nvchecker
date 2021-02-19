@@ -5,9 +5,9 @@ chrome-pak-customizer-git 20190819.120156
 clash-dashboard 0.3.0
 gotags 1.4.1
 muduo 2.0.2
-python-aigpy 2020.12.17.1
+python-aigpy 2021.2.18.1
 python-libffmpeg 1.4
-qemu-debootstrap 20191202.102003.3e1429e3
+qemu-debootstrap 20210214.160536.9899b172
 sddm-sugar-dark 1.2
 sddm-sugar-light 1.0
 supersm 0.5
