@@ -1,14 +1,14 @@
-0ad-zh-lang 0.0.23b
+0ad-zh-lang 0.0.24
 ao 6.9.0
 apindex 2.2
 chrome-pak-customizer-git 20190819.120156
 clash-dashboard 0.3.0
 gotags 1.4.1
 muduo 2.0.2
-python-aigpy 2021.2.18.1
+python-aigpy 2021.5.27.1
 python-libffmpeg 1.4
 qemu-debootstrap 20210214.160536.9899b172
 sddm-sugar-dark 1.2
 sddm-sugar-light 1.0
-supersm 0.5
+supersm 0.5.1
 tidal-dl 1.1.1.0
